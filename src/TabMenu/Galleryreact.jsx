@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../TabMenu/Tab.css";
-import Menu from "./Menu"; 
+import Menu from "./Menu";
 
 const Galleryreact = () => {
     const [items, setItems] = useState(Menu);
@@ -56,12 +56,13 @@ const Galleryreact = () => {
                                                     <div className="menu-price-book">
                                                         <div className="price-book-divide d-flex justify-content-between">
                                                             <h2>Price: {price}</h2>
-                                                            <a href="#">
-                                                                <button className="btn btn-primary"> Order Now</button>
-                                                            </a>
+                                                            <button className="btn btn-primary" onClick={() => alert('Order placed!')}>
+                                                                Order Now
+                                                            </button>
                                                         </div>
                                                         <p>*Prices may vary on selected date</p>
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </div>
