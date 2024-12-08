@@ -59,6 +59,7 @@ const Galleryreact = () => {
                                                             <button className="btn btn-primary" onClick={() => alert('Order placed!')}>
                                                                 Order Now
                                                             </button>
+
                                                         </div>
                                                         <p>*Prices may vary on selected date</p>
                                                     </div>
